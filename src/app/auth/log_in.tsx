@@ -3,7 +3,6 @@ import { View, Text, TextInput,
 
 import { Link, router } from "expo-router"
 
-import Header from "../../components/header"
 import Button from "../../components/button"
 
 const handlePress = (): void => {
@@ -14,7 +13,7 @@ const handlePress = (): void => {
 const LogIn = (): JSX.Element => {
     return (
       <View style={styles.container}>
-        <Header />
+        
         <View style={styles.inner}>
           <Text style={styles.title}>Log in</Text>
           <TextInput style={styles.input} value="Email adoress" />

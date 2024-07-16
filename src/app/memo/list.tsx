@@ -1,7 +1,6 @@
 import { View, StyleSheet } from "react-native"
 import { router } from "expo-router"
 
-import Header from "../../components/header"
 import MemoListItem from "../../components/memoListItem"
 import CircleButton from "../../components/circleButton"
 import Icon from "../../components/Icon"
@@ -13,7 +12,7 @@ const handlePress = (): void => {
 const List = (): JSX.Element => {
     return (
     <View style={styles.container}>
-           <Header />
+           
         <View>
             <MemoListItem />
             <MemoListItem />
